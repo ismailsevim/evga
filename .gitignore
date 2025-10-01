@@ -26,9 +26,9 @@ build/
 Thumbs.db
 
 # Data — keep large data out of git
-data/
-*.sqlite3
-*.h5
+#data/
+#*.sqlite3
+#*.h5
 
 # Secrets
 .env
