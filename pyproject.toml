@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evga"
+version = "0.1.0"
+description = "EVGA genetic algorithm project"
+authors = [
+    {name = "Ismail Sevim"}
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
